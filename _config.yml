@@ -23,10 +23,10 @@ description: >- # used by seo meta and the atom feed
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
-url: "https://daesuni.github.io"
+url: "https://prudentdeer.github.io"
 
 github:
-  username: daesuni # change to your GitHub username
+  username: prudentdeer # change to your GitHub username
 
 twitter:
   username: twitter_username # change to your Twitter username
@@ -34,7 +34,7 @@ twitter:
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: daesuni
+  name: prudentdeer
   email: example@domain.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
@@ -119,7 +119,7 @@ comments:
     issue_term: # < url | pathname | title | ...>
   # Giscus options › https://giscus.app
   giscus:
-    repo: daesuni/giscus
+    repo: prudentdeer/giscus
     repo_id: R_kgDONP30Tg
     category: comments
     category_id: DIC_kwDONP30Ts4CkTQR
