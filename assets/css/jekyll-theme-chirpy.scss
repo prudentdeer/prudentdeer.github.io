@@ -9,18 +9,32 @@
 
 /* append your custom style below */
 
+#sidebar .site-title { font-weight: 600; }
+
 .post-wrap {  }
-.post-title { font-weight: 500; }
+.post-title { font-weight: 600; }
 .post-figure { margin: 0; text-align: center; }
 .post-figure > a.popup { margin: 0; }
 .post-figure > a.popup > img { padding: 0.5rem; max-height: 350px; }
-.post-figure > figcaption { text-align: center; font-size: 0.85rem; color: var(--text-muted-color); }
+.post-figure > figcaption { text-align: center; font-size: 0.85rem; color: #757575; }
 .post-table { width: 100%; }
 
 .para { margin-bottom: 4rem; }
 .para-cntnt { margin-top: 0.5rem; }
+.para-kwd {
+  text-decoration: none;
+  box-shadow: inset 0 -2px 0 rgba(50,85,127,0.5), 0 2px 0 rgba(50,85,127,0.5);
+  transition: box-shadow .3s;
+  color: inherit;
+  overflow: hidden;
+}
+.para-kwd:hover {
+  box-shadow: inset 0 -30px 0 rgba(50,85,127,0.5), 0 2px 0 rgba(50,85,127,0.5);
+}
+
 .post-wrap > .para > .para-title { margin-bottom: 1rem; }
 .para > .para-title { font-size: 1.35rem; font-weight: 500; }
+.para > .para-title:nth-of-type(n+2) { margin-top: 1rem; }
 .para > .para-cntnt { padding-left: 1rem; }
 .para > .para-cntnt > .para > .para-title { font-size: 1.15rem; }
 .para > .para-cntnt > .para > .para-cntnt { padding-left: 1rem; }
