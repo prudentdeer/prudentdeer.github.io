@@ -19,7 +19,7 @@
 .post-figure > figcaption { text-align: center; font-size: 0.85rem; color: #757575; }
 .post-table { width: 100%; }
 
-.para { margin-bottom: 4rem; }
+.para { margin-bottom: 2.5rem; }
 .para-cntnt { margin-top: 0.5rem; }
 .para-kwd {
   text-decoration: none;
@@ -39,9 +39,11 @@
 .para > .para-cntnt > .para > .para-title { font-size: 1.15rem; }
 .para > .para-cntnt > .para > .para-cntnt { padding-left: 1rem; }
 
-.table-wrapper>table tbody tr td, .table-wrapper>table thead th { white-space: wrap; }
+.table-wrapper>table thead { border-bottom: solid 2px #868686; }
+.table-wrapper>table thead tr th { text-align: center; }
 .table-wrapper>table tbody tr:nth-child(2n) { background-color: transparent; }
 .table-wrapper>table tbody tr:nth-child(2n+1) { background-color: transparent; }
+.table-wrapper>table tbody tr td, .table-wrapper>table thead th { white-space: wrap; border: 1px solid #c2c6cc; }
 
 #post-list {
   .card {
