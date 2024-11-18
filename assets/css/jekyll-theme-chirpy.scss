@@ -23,13 +23,14 @@
 .para-cntnt { margin-top: 0.5rem; }
 .para-kwd {
   text-decoration: none;
-  box-shadow: inset 0 -2px 0 rgba(50,85,127,0.5), 0 2px 0 rgba(50,85,127,0.5);
+  box-shadow: inset 0 -2px 0 rgba(227,0,0,0.5), 0 2px 0 rgba(227,0,0,0.5);
   transition: box-shadow .3s;
+  font-weight: 500;
   color: inherit;
   overflow: hidden;
 }
 .para-kwd:hover {
-  box-shadow: inset 0 -30px 0 rgba(50,85,127,0.5), 0 2px 0 rgba(50,85,127,0.5);
+  box-shadow: inset 0 -30px 0 rgba(227,0,0,0.5), 0 2px 0 rgba(227,0,0,0.5);
 }
 
 .post-wrap > .para > .para-title { margin-bottom: 1rem; }
