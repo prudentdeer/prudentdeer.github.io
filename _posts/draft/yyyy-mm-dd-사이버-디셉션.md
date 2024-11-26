@@ -1,9 +1,9 @@
 ---
-title: 세마포어
+title: 사이버 디셉션 (Cyber Deception)
 #author: 
-date: 2023-09-27 00:00:10 +0800
-categories: [PE, 운영체제]
-published: false
+date: 2024-01-19 00:00:10 +0800
+categories: [PE, 보안]
+published: true
 #tags: []
 #pin: false
 #math: false
@@ -17,15 +17,15 @@ published: false
 <div class="post-wrap">
   <div class="para">
     <div class="para-title">
-      I. 상호배제를 이용한 동기화 기법, 세마포어 - OS 레벨
+      I. 허니팟의 진화, 사이버디셉션
     </div>
     <div class="para-cntnt">
       <div class="para">
         <div class="para-title">
-          가. 세마포어의 정의
+          가. 사이버디셉션의 정의
         </div>
         <div class="para-cntnt">
-            임계영역의 동시성제어 위해 P연산과 V연산을 이용한 N개 스레드 대상 상호배제 기법
+            공격자를 가짜함정으로 유도, 내부보안 방어 및 실시간 탐지 모니터링 가능한 공격자 기만 보안기술
         </div>
       </div>
     </div>
@@ -33,39 +33,45 @@ published: false
   
   <div class="para">
     <div class="para-title">
-      II. 세마포어
+      II. 사이버디셉션
     </div>
     <div class="para-cntnt">
       <div class="para">
         <div class="para-title">
-          가. 세마포어의 아키텍처
+          가. 사이버디셉션의 아키텍처
         </div>
         <div class="para-cntnt">
           <figure class="post-figure">
-            <img src="/assets/img/posts/세마포어.png" alt="세마포어">
+            <img src="/assets/img/posts/사이버디셉션.png" alt="사이버디셉션">
 <!--            <figcaption>Source: Unveiling the Metaverse: Exploring Emerging Trends, Multifaceted Perspectives, and Future Challenges</figcaption>-->
           </figure>
         </div>
       </div>
       <div class="para">
         <div class="para-title">
-          나. 세마포어의 구성요소
+          나. 사이버디셉션의 구성요소
         </div>
         <div class="para-cntnt">
           <table class="post-table">
           </table>
-          구성요소 PV 이계 SS
-  P 연산 / S - 1 - 잠금을 수행하는 코드로 S 가 0 보다 크면 1 만큼 감소 시키고 임계영역 진입 - S 가 0 보다 작으면 0 보다 커질때까지 대기
-  V 연산 / S + 1 - 잠금 해제와 동기화를 같이 수행하는 코드로 S 값을 1 증가 - 세마포어에서 대기 중인 프로세스에게 임계영역에 진입하도록 신호 전달
-  이진&nbsp;세마포어 (Binary) -&nbsp;정적변수는&nbsp;0&nbsp;또는&nbsp;1&nbsp;의&nbsp;값만&nbsp;할당&nbsp;가능한&nbsp;세마포어
-  계수형&nbsp;세마포어 (Counter) -&nbsp;사용&nbsp;가능한&nbsp;자원의&nbsp;수로&nbsp;초기값&nbsp;설정
-  Segment() - get 함수의 처리
-  Semctrl() - 통제함수 처리
-세마포어, 모니터, 뮤택스의 비교
-  기반 - OS &lt;&gt; 프로그래밍언어 &lt;&gt; OS
-  기법 - P, V연산 &lt;&gt; 베타, 조건 큐 &lt;&gt; Lock, Unlock
-  해결 - 상호배제 &lt;&gt; 타이밍 문제 &lt;&gt; 상호배제
-  사용 - N개 스레드 &lt;&gt; 1개 스레드 &lt;&gt; 1개 스레드
+          구성요소 디트시 루페네오
+  Decoy(미끼)
+    루어토큰 - 공격자를 유인하는 가짜 인증토큰
+    페이크드라이브 - 공격자 유인하는 가짜 저장소
+  Trap(함정)
+    NW - 가상 유도 NW, 트래픽 생성, Access Control, 이메일 정보
+    EndPoint - 에이전트 정보, 방화벽, 경로별 정보 유도, USB, 포트
+    OS - Root 정보, 사용자 인증, 접근제어 허가, 메모리 유도
+  System
+    NW 탐지 - 이상접근, 미끼기반 모니터링, 랜섬웨어 확인, 현상파악
+    포렌식 - 정당성 확보를 위한 근거 추출, 이상현상에 대한 원인 분석
+    User Interface - 실시간 트래픽 모니터링, 포트 등 다경로 시각화 수행/제공
+사이버디셉션과 허니팟 비교
+  대응범위 - 내/외부 접근 &lt;&gt; 외부접근
+  라이선스 - 라이선스 최소화 &lt;&gt; 가상화 등 많은 라이선스 필요
+  오탐율 - 오탐율 최소화(제로화) &lt;&gt; 오탐지 높음
+  탐지방식 - 포괄적 탐지(자동화 구현/확장) &lt;&gt; 로그분석 기반
+  확장 - 포괄적 배치 &lt;&gt; 제한적 배치
 
         </div>
       </div>
