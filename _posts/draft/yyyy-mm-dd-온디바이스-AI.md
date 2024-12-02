@@ -42,7 +42,7 @@ published: false
         </div>
         <div class="para-cntnt">
           <figure class="post-figure">
-            <img src="/assets/img/posts/온디바이스-AI.png" alt="온디바이스 AI">
+            <img src="/assets/img/posts/온디바이스AI.png" alt="온디바이스 AI">
 <!--            <figcaption>Source: Unveiling the Metaverse: Exploring Emerging Trends, Multifaceted Perspectives, and Future Challenges</figcaption>-->
           </figure>
         </div>
